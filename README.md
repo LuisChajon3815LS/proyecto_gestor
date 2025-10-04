@@ -1,8 +1,10 @@
-🚀 Gestor Académico PRO: Control Total de Calificaciones en Consola
-🎯 El Desafío Académico
+##🚀 Gestor Académico 
+
+##🎯 El Desafío Académico
+
 La vida universitaria es un malabarismo constante. Múltiples asignaturas, tareas variadas, exámenes con distintos pesos y ponderaciones... Mantener un control manual de todas las calificaciones y promedios se convierte rápidamente en una tarea tediosa y propensa a errores. La falta de claridad sobre el rendimiento real puede generar estrés y dificultar la toma de decisiones informadas sobre dónde enfocar el esfuerzo.
 
-💡 Nuestra Solución: El Gestor de Notas Académicas (GNA)
+##💡 La Solución:
 El Gestor de Notas Académicas es una herramienta esencial, desarrollada íntegramente en Python, diseñada para terminar con la incertidumbre. Este programa permite a cualquier estudiante:
 
 Registrar cursos y sus evaluaciones detalladas (exámenes, tareas, laboratorios) junto con sus ponderaciones exactas.
