@@ -1,62 +1,52 @@
-# 📚 Gestor de Notas Académicas
+🚀 Gestor Académico PRO: Control Total de Calificaciones en Consola
+🎯 El Desafío Académico
+La vida universitaria es un malabarismo constante. Múltiples asignaturas, tareas variadas, exámenes con distintos pesos y ponderaciones... Mantener un control manual de todas las calificaciones y promedios se convierte rápidamente en una tarea tediosa y propensa a errores. La falta de claridad sobre el rendimiento real puede generar estrés y dificultar la toma de decisiones informadas sobre dónde enfocar el esfuerzo.
 
-## Redacción del Problema
-En la vida universitaria es común llevar varios cursos al mismo tiempo, cada uno con tareas, exámenes, laboratorios y distintas ponderaciones. Esto puede volver complicado el control de las calificaciones y del promedio general.  
+💡 Nuestra Solución: El Gestor de Notas Académicas (GNA)
+El Gestor de Notas Académicas es una herramienta esencial, desarrollada íntegramente en Python, diseñada para terminar con la incertidumbre. Este programa permite a cualquier estudiante:
 
-El **Gestor de Notas Académicas** es un programa desarrollado en Python que permite registrar cursos, almacenar sus evaluaciones con sus respectivas ponderaciones, calcular promedios y generar reportes de rendimiento. Todo esto se realiza de forma sencilla desde la consola, sin depender de hojas de cálculo ni software adicional.  
+Registrar cursos y sus evaluaciones detalladas (exámenes, tareas, laboratorios) junto con sus ponderaciones exactas.
 
-Este sistema está pensado para estudiantes que necesitan organizar sus notas y tener una visión clara de su avance académico, identificando de manera rápida cuáles son sus puntos fuertes y en qué materias necesitan mejorar.
+Calcular automáticamente el promedio general ponderado y el de cada materia.
 
----
+Generar reportes de rendimiento limpios y concisos.
 
-##  Requisitos Funcionales
-El menú del sistema debe incluir al menos las siguientes funciones:  
-1. **Registrar nuevo curso y nota** con nombre, tipo de evaluación, nota obtenida y ponderación.  
-2. **Mostrar todas las notas registradas** de forma clara y ordenada.  
-3. **Calcular el promedio general ponderado** de todas las materias.  
-4. **Buscar notas por curso** para consultar el detalle de una materia específica.  
+Olvídate de las hojas de cálculo engorrosas. El GNA te ofrece un control total y transparente de tu avance académico, directamente desde la consola, permitiéndote identificar rápidamente tus puntos fuertes y las áreas que requieren mayor dedicación.
 
----
+⚙️ Especificaciones Clave del Sistema
+Requisitos Funcionales (¿Qué puede hacer?):
+El sistema se opera a través de un menú intuitivo que debe incluir, como mínimo, estas funciones:
 
-## Requisitos No Funcionales
-- El sistema se desarrollará **exclusivamente en Python**.  
-- Ejecución únicamente por **línea de comandos** (consola).  
-- **No** se permite el uso de librerías externas, solo funciones y estructuras básicas de Python.  
-- Debe implementar **bucles** y **condicionales** según el pseudocódigo diseñado.  
+Registro Rápido: Añadir nuevos cursos y sus respectivas evaluaciones (nombre, tipo, nota obtenida y ponderación).
 
+Vista Global: Mostrar todas las notas y evaluaciones registradas de manera clara y ordenada.
 
+Promedio Ponderado: Calcular y presentar el promedio general de todas las asignaturas.
 
+Consulta Detallada: Buscar notas por curso específico para ver el detalle de avance en esa materia.
 
+Requisitos Técnicos (¿Cómo está construido?):
+Tecnología: Desarrollo exclusivo en Python.
 
-📘 Explicación del proyecto
+Interfaz: Ejecución 100% en línea de comandos (consola).
 
-En este avance del proyecto se implementaron las siguientes mejoras:
+Restricciones de Código: Prohibido el uso de librerías o módulos externos; solo se permite el uso de estructuras y funciones básicas de Python.
 
-🗂 Uso de listas
+Estructura Base: Implementación obligatoria de bucles y condicionales según el diseño de pseudocódigo.
 
-Se utilizó una lista para almacenar los cursos registrados, lo cual permite manejar múltiples elementos de manera dinámica (agregar, mostrar y eliminar cursos).
-Esto facilita la gestión de los datos sin necesidad de usar estructuras más complejas.
+🏗️ Avance del Proyecto (Versión Inicial)
+En esta fase de desarrollo, se implementaron sólidos fundamentos para garantizar la escalabilidad y el mantenimiento del código:
 
-⚙️ Funciones
+🗂 Uso de Listas Dinámicas: Se empleó una estructura de lista principal para almacenar los cursos. Esto permite la gestión eficiente y dinámica de la información (agregar, mostrar y, en futuras fases, modificar o eliminar elementos).
 
-Se organizó el código en funciones para dividir el programa en tareas específicas y reutilizables.
-Por ejemplo:
+⚙️ Organización Lógica con Funciones: El código fue segmentado en funciones reutilizables, mejorando la legibilidad y la estructura:
 
-agregar_curso() para registrar un nuevo curso.
+agregar_curso(): Para el registro.
 
-mostrar_cursos() para listar los cursos existentes.
+mostrar_cursos(): Para la visualización.
 
-eliminar_curso() para borrar un curso de la lista.
+eliminar_curso(): Para la gestión de bajas de cursos.
 
-Esto mejora la legibilidad, el mantenimiento y la reutilización del código.
+🧩 Modularización: El proyecto se organizó en módulos (archivos .py) separados, dividiendo la lógica de gestión de datos de la interfaz principal de ejecución.
 
-🧩 Modularización
-
-El código se dividió en módulos para organizar mejor las diferentes partes del programa.
-Por ejemplo, un archivo puede contener la lógica de los cursos y otro el archivo principal que ejecuta el programa.
-
-
-🗑 Eliminación de cursos
-
-Se añadió la función de eliminar cursos que permite al usuario seleccionar un curso específico y quitarlo de la lista.
-Esto hace que el sistema sea más flexible y realista, ya que los cursos pueden cambiar con el tiempo.
+🗑 Funcionalidad de Eliminación: Se añadió la capacidad de eliminar cursos registrados, manteniendo la base de datos limpia y actualizada.
