@@ -1,54 +1,55 @@
-##🚀 Gestor Académico 
+# 🚀 GESTOR ACADÉMICO PRO: Control Total de Calificaciones en Consola
 
-##🎯 El Desafío Académico
+***
 
-La vida universitaria es un malabarismo constante. Múltiples asignaturas, tareas variadas, exámenes con distintos pesos y ponderaciones... Mantener un control manual de todas las calificaciones y promedios se convierte rápidamente en una tarea tediosa y propensa a errores. La falta de claridad sobre el rendimiento real puede generar estrés y dificultar la toma de decisiones informadas sobre dónde enfocar el esfuerzo.
+## 🎯 El Desafío Académico
 
-##💡 La Solución:
-El Gestor de Notas Académicas es una herramienta esencial, desarrollada íntegramente en Python, diseñada para terminar con la incertidumbre. Este programa permite a cualquier estudiante:
+La vida universitaria exige un constante **malabarismo**. Múltiples asignaturas, tareas variadas, exámenes con distintos pesos y **ponderaciones** hacen que llevar un control manual sea tedioso y propenso a errores. Esta falta de claridad sobre el rendimiento real dificulta saber dónde enfocar el esfuerzo y genera incertidumbre.
 
-Registrar cursos y sus evaluaciones detalladas (exámenes, tareas, laboratorios) junto con sus ponderaciones exactas.
+---
 
-Calcular automáticamente el promedio general ponderado y el de cada materia.
+## ✨ Nuestra Solución: El Gestor de Notas Académicas (GNA)
 
-Generar reportes de rendimiento limpios y concisos.
+El **Gestor de Notas Académicas** es una herramienta esencial, desarrollada íntegramente en **Python**, diseñada para terminar con la incertidumbre. Este programa ligero y rápido te permite:
 
-Olvídate de las hojas de cálculo engorrosas. El GNA te ofrece un control total y transparente de tu avance académico, directamente desde la consola, permitiéndote identificar rápidamente tus puntos fuertes y las áreas que requieren mayor dedicación.
+* ✅ **Registrar** cursos y todas sus evaluaciones con **ponderaciones exactas**.
+* ✅ **Calcular** automáticamente el **promedio general ponderado** y el de cada materia.
+* ✅ **Generar reportes** de rendimiento limpios y concisos.
 
-⚙️ Especificaciones Clave del Sistema
-Requisitos Funcionales (¿Qué puede hacer?):
-El sistema se opera a través de un menú intuitivo que debe incluir, como mínimo, estas funciones:
+**¿El resultado?** Un **control total y transparente** de tu avance académico, accesible directamente desde la **consola**, permitiéndote identificar rápidamente tus puntos fuertes y las áreas que requieren mayor dedicación.
 
-Registro Rápido: Añadir nuevos cursos y sus respectivas evaluaciones (nombre, tipo, nota obtenida y ponderación).
+***
 
-Vista Global: Mostrar todas las notas y evaluaciones registradas de manera clara y ordenada.
+## ⚙️ Especificaciones Clave del Sistema
 
-Promedio Ponderado: Calcular y presentar el promedio general de todas las asignaturas.
+### 📋 Requisitos Funcionales (¿Qué puede hacer?):
 
-Consulta Detallada: Buscar notas por curso específico para ver el detalle de avance en esa materia.
+El sistema se opera a través de un **menú intuitivo** que debe incluir, como mínimo, estas funciones:
 
-Requisitos Técnicos (¿Cómo está construido?):
-Tecnología: Desarrollo exclusivo en Python.
+1.  **Registro Único:** Añadir nuevos cursos y sus respectivas evaluaciones (Nombre, Tipo de Evaluación, Nota Obtenida y Ponderación).
+2.  **Vista Global:** Mostrar todas las notas y evaluaciones registradas de manera clara y ordenada.
+3.  **Cálculo Maestro:** Calcular y presentar el **promedio general ponderado** de todas las asignaturas.
+4.  **Consulta Detallada:** Buscar notas por curso específico para ver el detalle de avance.
 
-Interfaz: Ejecución 100% en línea de comandos (consola).
+### 🛠️ Requisitos Técnicos (¿Cómo está construido?):
 
-Restricciones de Código: Prohibido el uso de librerías o módulos externos; solo se permite el uso de estructuras y funciones básicas de Python.
+* **Tecnología:** Desarrollo exclusivo en **Python**.
+* **Interfaz:** Ejecución 100% en **línea de comandos (consola)**.
+* **Restricciones de Código:** **Prohibido** el uso de librerías o módulos externos; solo se permite el uso de estructuras y funciones nativas de Python.
+* **Estructura Base:** Implementación obligatoria de **bucles** y **condicionales** conforme al diseño de pseudocódigo.
 
-Estructura Base: Implementación obligatoria de bucles y condicionales según el diseño de pseudocódigo.
+***
 
-🏗️ Avance del Proyecto (Versión Inicial)
+## 🚀 Avance del Proyecto (Versión Inicial)
+
 En esta fase de desarrollo, se implementaron sólidos fundamentos para garantizar la escalabilidad y el mantenimiento del código:
 
-🗂 Uso de Listas Dinámicas: Se empleó una estructura de lista principal para almacenar los cursos. Esto permite la gestión eficiente y dinámica de la información (agregar, mostrar y, en futuras fases, modificar o eliminar elementos).
+### 🗂 Estructuras y Datos
 
-⚙️ Organización Lógica con Funciones: El código fue segmentado en funciones reutilizables, mejorando la legibilidad y la estructura:
+* **Uso de Listas Dinámicas:** Se empleó una estructura de **lista principal** para almacenar los cursos. Esto permite la gestión eficiente y dinámica de la información (**agregar**, **mostrar** y **eliminar**).
 
-agregar_curso(): Para el registro.
+### ⚙️ Organización y Modularidad
 
-mostrar_cursos(): Para la visualización.
-
-eliminar_curso(): Para la gestión de bajas de cursos.
-
-🧩 Modularización: El proyecto se organizó en módulos (archivos .py) separados, dividiendo la lógica de gestión de datos de la interfaz principal de ejecución.
-
-🗑 Funcionalidad de Eliminación: Se añadió la capacidad de eliminar cursos registrados, manteniendo la base de datos limpia y actualizada.
+* **Organización Lógica con Funciones:** El código fue segmentado en **funciones reutilizables** (ej. `agregar_curso()`, `mostrar_cursos()`, `eliminar_curso()`), mejorando la **legibilidad** y el **mantenimiento**.
+* **Modularización:** El proyecto se organizó en **módulos** separados, dividiendo la lógica de gestión de datos de la interfaz principal de ejecución.
+* **Gestión de Cursos:** Se añadió la funcionalidad para **Eliminación de cursos** registrados, manteniendo la base de datos limpia y precisa.
