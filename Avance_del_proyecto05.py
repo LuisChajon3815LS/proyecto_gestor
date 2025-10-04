@@ -1,6 +1,6 @@
 materias = []
-bitacora = []        # Pila 
-peticiones_cola = [] # Cola
+bitacora = []         # Pila 
+peticiones_cola = []  # Cola
 
 def ver_menu():
     print("*-*-*-*-*-*-*-*-*-*-*-*-*-*")
@@ -286,4 +286,5 @@ def iniciar_programa():
             print("⚠️ Opción no válida. Por favor, elige un número del menú.")
 
 if __name__ == "__main__":
+
     iniciar_programa()
