@@ -4,9 +4,9 @@ INICIO
 
     MIENTRAS continuar = VERDADERO HACER
 
-        IMPRIMIR "=============================="
-        IMPRIMIR "  GESTOR DE NOTAS ACADÉMICAS  "
-        IMPRIMIR "=============================="
+        IMPRIMIR "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"
+        IMPRIMIR " { GESTOR DE NOTAS ACADÉMICAS }"
+        IMPRIMIR "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"
         IMPRIMIR " 1. Registrar nuevo curso"
         IMPRIMIR " 2. Mostrar todos los cursos y notas"
         IMPRIMIR " 3. Calcular promedio general"
@@ -20,7 +20,6 @@ INICIO
         IMPRIMIR "11. Simular cola de solicitudes de revisión"
         IMPRIMIR "12. Mostrar historial de cambios (pila)"
         IMPRIMIR "13. Salir"
-        IMPRIMIR ""
         IMPRIMIR "Seleccione una opción (1-13):"
 
         LEER opcion
