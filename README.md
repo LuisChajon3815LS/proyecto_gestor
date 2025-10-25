@@ -53,3 +53,13 @@ En esta fase de desarrollo, se implementaron sólidos fundamentos para garantiza
 * **Organización Lógica con Funciones:** El código fue segmentado en **funciones reutilizables** (ej. `agregar_curso()`, `mostrar_cursos()`, `eliminar_curso()`), mejorando la **legibilidad** y el **mantenimiento**.
 * **Modularización:** El proyecto se organizó en **módulos** separados, dividiendo la lógica de gestión de datos de la interfaz principal de ejecución.
 * **Gestión de Cursos:** Se añadió la funcionalidad para **Eliminación de cursos** registrados, manteniendo la base de datos limpia y precisa.
+
+### 📃 Preguntas
+* ¿Qué aprendí con este proyecto?:
+Con este proyecto aprendí a aplicar los principios de la Programación Orientada a Procedimientos y el uso práctico de estructuras de datos clásicas como listas, pilas (LIFO) y colas (FIFO). También reforcé mis conocimientos sobre validaciones de entrada, búsquedas lineales y binarias, y algoritmos de ordenamiento (burbuja, inserción y selección). Además, entendí la importancia de la organización modular del código, separando la lógica de validación, presentación y operaciones principales para mantener un programa claro, escalable y fácil de mantener.
+* ¿Qué fue lo más desafiante de resolver?:
+Lo más desafiante fue lograr que las diferentes estructuras de datos (listas, pilas y colas) trabajaran de forma integrada dentro del flujo del programa sin generar inconsistencias. También fue un reto implementar correctamente los algoritmos de búsqueda y ordenamiento, asegurando que cada uno cumpliera su función sin afectar la integridad de los datos. Otro desafío importante fue diseñar un menú interactivo claro y funcional, que guiara al usuario sin necesidad de conocimientos avanzados de programación.
+* ¿Qué mejoraría si tuviera más tiempo?:
+Si tuviera más tiempo, mejoraría principalmente la interfaz del programa, transformándola en una aplicación más visual e intuitiva. Por ejemplo, podría implementar una interfaz gráfica (GUI) utilizando Tkinter o PyQt, que permitiera al usuario registrar, modificar y eliminar cursos mediante botones y formularios en lugar de hacerlo solo desde la consola.
+También incorporaría colores, iconos y cuadros de diálogo para mejorar la experiencia de usuario, junto con un sistema de guardado automático de los cursos en archivos o bases de datos para conservar la información entre sesiones. Finalmente, añadiría un panel de estadísticas que muestre promedios, cursos aprobados y reprobados con gráficos o barras de progreso, haciendo el sistema más atractivo y funcional.
+ 
